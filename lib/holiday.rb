@@ -1,5 +1,6 @@
 require 'pry'
-
+holiday_hash
+binding pry
 def second_supply_for_fourth_of_july(holiday_hash)
   # given that holiday_hash looks like this:
   # {
@@ -60,7 +61,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-binding pry 
+
 end
 
 def all_holidays_with_bbq(holiday_hash)
